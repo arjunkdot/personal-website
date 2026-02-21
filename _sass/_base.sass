@@ -1,0 +1,23 @@
+@use "variables" as v
+
+:root
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
+
+::selection
+      background-color: v.$highlight-sublte
+
+::-moz-selection
+      background-color: v.$highlight-sublte
+
+a
+    text-decoration: underline dotted
+    text-underline-offset: 0.25rem
+    color: v.$text-brand
+
+    &:hover
+        color: v.$text-brand-dark
+
+    &:focus
+        outline: none
+        background-color: v.$highlight-default
