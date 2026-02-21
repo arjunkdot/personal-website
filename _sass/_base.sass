@@ -4,20 +4,45 @@
     -webkit-font-smoothing: antialiased
     -moz-osx-font-smoothing: grayscale
 
+    --background: #{v.$background-light}
+
+    --text-subtle: #{v.$text-subtle-light}
+    --text-default: #{v.$text-default-light}
+    --text-brand: #{v.$text-brand-light}
+    --text-brand-bold: #{v.$text-brand-bold-light}
+
+    --highlight-default: #{v.$highlight-default-light}
+    --highlight-subtle: #{v.$highlight-subtle-light}
+
+@media (prefers-color-scheme: dark)
+    :root
+        --background: #{v.$background-dark}
+
+        --text-subtle: #{v.$text-subtle-dark}
+        --text-default: #{v.$text-default-dark}
+        --text-brand: #{v.$text-brand-dark}
+        --text-brand-bold: #{v.$text-brand-bold-dark}
+
+        --highlight-default: #{v.$highlight-default-dark}
+        --highlight-subtle: #{v.$highlight-subtle-dark}
+
 ::selection
-      background-color: v.$highlight-sublte
+      background-color: var(--highlight-subtle)
 
 ::-moz-selection
-      background-color: v.$highlight-sublte
+      background-color: var(--highlight-subtle)
+
+body
+    background-color: var(--background)
 
 a
     text-decoration: underline dotted
     text-underline-offset: 0.25rem
-    color: v.$text-brand
+    color: var(--text-brand)
 
     &:hover
-        color: v.$text-brand-dark
+        color: var(--text-brand-bold)
 
     &:focus
         outline: none
-        background-color: v.$highlight-default
+        background-color: var(--highlight-default)
