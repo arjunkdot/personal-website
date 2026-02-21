@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Understnding stale clousures in React"
 date:   2026-02-20 19:57:38 +0530
 categories: posts 
 ---

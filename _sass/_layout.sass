@@ -1,4 +1,24 @@
-.container
+@use "variables" as v
+
+body
+    padding: 0 0.75rem
+
+main
+    min-height: calc(100dvh - 250px)
+
+.container, footer
     max-width: 48rem
     margin: 0 auto
-    padding: 0 1.5rem
+
+footer
+    border-top: 1px solid v.$text-subtle
+    margin-top: 5rem
+    padding-top: 0.5rem
+
+    nav ul
+        padding-left: 0
+        margin-bottom: 0
+        display: inline-flex
+        flex-wrap: wrap
+        list-style: none
+        gap: 0.5rem
