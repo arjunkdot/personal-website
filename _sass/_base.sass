@@ -1,36 +1,34 @@
-@use "variables" as v
-
-:root
+\:root
     -webkit-font-smoothing: antialiased
     -moz-osx-font-smoothing: grayscale
 
-    --background: #{v.$background-light}
+    --background: #{$background-light}
 
-    --text-subtle: #{v.$text-subtle-light}
-    --text-default: #{v.$text-default-light}
-    --text-brand: #{v.$text-brand-light}
-    --text-brand-bold: #{v.$text-brand-bold-light}
+    --text-subtle: #{$text-subtle-light}
+    --text-default: #{$text-default-light}
+    --text-brand: #{$text-brand-light}
+    --text-brand-bold: #{$text-brand-bold-light}
 
-    --highlight-default: #{v.$highlight-default-light}
-    --highlight-subtle: #{v.$highlight-subtle-light}
+    --highlight-default: #{$highlight-default-light}
+    --highlight-subtle: #{$highlight-subtle-light}
 
 @media (prefers-color-scheme: dark)
-    :root
-        --background: #{v.$background-dark}
+    \:root
+        --background: #{$background-dark}
 
-        --text-subtle: #{v.$text-subtle-dark}
-        --text-default: #{v.$text-default-dark}
-        --text-brand: #{v.$text-brand-dark}
-        --text-brand-bold: #{v.$text-brand-bold-dark}
+        --text-subtle: #{$text-subtle-dark}
+        --text-default: #{$text-default-dark}
+        --text-brand: #{$text-brand-dark}
+        --text-brand-bold: #{$text-brand-bold-dark}
 
-        --highlight-default: #{v.$highlight-default-dark}
-        --highlight-subtle: #{v.$highlight-subtle-dark}
+        --highlight-default: #{$highlight-default-dark}
+        --highlight-subtle: #{$highlight-subtle-dark}
 
 ::selection
-      background-color: var(--highlight-subtle)
+    background-color: var(--highlight-subtle)
 
 ::-moz-selection
-      background-color: var(--highlight-subtle)
+    background-color: var(--highlight-subtle)
 
 body
     background-color: var(--background)
