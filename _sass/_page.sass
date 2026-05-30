@@ -1,5 +1,19 @@
+@use "variables" as v
+
 .home-intro, .post-nav
     margin-top: 3rem
 
 .post-nav
     margin-bottom: 2.5rem
+
+.posts
+    padding-left: 0
+    margin-top: 4rem
+    &__item
+        list-style: none
+        margin-bottom: 1.75rem
+        &:last-child
+            margin-bottom: 0
+    &__datetime
+        display: block
+        color: #{v.$text-subtle-dark}

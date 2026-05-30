@@ -5,10 +5,18 @@ title: Home
 
 <section class="home-intro">{{ content }}</section>
 
-<ul>
-    {% for post in site.posts %}
-    <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
-</ul>
+<section>
+    <ul class="posts">
+        {% for post in site.posts %}
+        <li class="posts__item">
+            <time
+                class="posts__datetime"
+                datetime="{{ post.date | date_to_xmlschema }}"
+            >
+                {{ post.date | date_to_long_string | upcase }} —
+            </time>
+            <a class="posts__link" href="{{ post.url }}"> {{ post.title }} </a>
+        </li>
+        {% endfor %}
+    </ul>
+</section>

@@ -1,11 +1,12 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
+title: Arjun K. - Personal Website
+permalink: /
+date: 2026-05-30
+excerpt: Welcome to my personal website, where I share my thoughts and what I've learned.
 ---
 Hi, I'm Arjun 👋
 
-I’m a web developer by profession, currently working at [Salesdock](https://salesdock.nl){:target="_blank"}. I love building things for the web and occasionally dabble in [design](https://dribbble.com/arjunkdot){:target="_blank"} as well.
+I love building for the web and occasionally dabble in [design](https://dribbble.com/arjunkdot){:target="_blank"}.
 
-I currently live in the beautiful backwater state of [Kerala, India](https://www.britannica.com/place/Kerala){:target="_blank"}. From time to time, I write about things I’ve learned and share my thoughts here.
+I currently live in beautiful [Kerala, India](https://en.wikipedia.org/wiki/Kerala){:target="_blank"}. From time to time, I write about things I’ve learned and share my thoughts here.
