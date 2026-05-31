@@ -4,20 +4,51 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="{{ page.description | default: site.description }}">
-        <meta property="og:description" content="{{ page.description | default: site.description }}" />
+        <meta
+            name="description"
+            content="{{ page.description | default: site.description }}"
+        />
+        <meta
+            property="og:description"
+            content="{{ page.description | default: site.description }}"
+        />
         <meta charset="utf-8" />
         <title>{{ page.title }} - {{ site.title }}</title>
+        <link
+            rel="icon"
+            type="image/png"
+            href="/assets/images/favicon-96x96.png"
+            sizes="96x96"
+        />
+        <link
+            rel="icon"
+            type="image/svg+xml"
+            href="/assets/images/favicon.svg"
+        />
+        <link rel="shortcut icon" href="/assets/images/favicon.ico" />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/assets/images/apple-touch-icon.png"
+        />
+        <link rel="manifest" href="/assets/images/site.webmanifest" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@500&family=Mozilla+Text:wght@200..700&display=swap" />
-        <link rel="stylesheet" href="{{ '/assets/css/syntax.css' | relative_url }}" />
-        <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}"/>
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@500&family=Mozilla+Text:wght@200..700&display=swap"
+        />
+        <link
+            rel="stylesheet"
+            href="{{ '/assets/css/syntax.css' | relative_url }}"
+        />
+        <link
+            rel="stylesheet"
+            href="{{ '/assets/css/styles.css' | relative_url }}"
+        />
     </head>
     <body>
         <main class="container">{{ content }}</main>
     </body>
-    <footer>
-        {% include footer.html %}
-    </footer>
+    <footer>{% include footer.html %}</footer>
 </html>
