@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Arjun K. - Personal Website
+title: Personal homepage
 permalink: /
 date: 2026-05-30
 excerpt: Welcome to my personal website, where I share my thoughts and what I've learned.
