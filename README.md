@@ -2,7 +2,7 @@
     <img src="https://raw.githubusercontent.com/arjunkdot/personal-website/refs/heads/main/.github/images/logo.png" alt="Logo" width="192" height="192" />
 </p>
 
-<h1 align="center">Arjun K. — Personal Website</h1>
+<h1 align="center">Personal Website</h1>
 
 <p align="center">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/arjunkdot/personal-website">
@@ -30,7 +30,7 @@ Personal website built with [Jekyll](https://jekyllrb.com/) and hosted at [whois
 - **RubyGems**
 - **Bundler**
 - **Jekyll** 4.4.1+
-- **Docker** (optional, for containerised setup)
+- **Docker** (optional)
 
 ## Local Setup
 
