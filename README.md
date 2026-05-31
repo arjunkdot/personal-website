@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./github/images/logo.png" alt="Logo" width="192" height="192" />
+    <img src="https://raw.githubusercontent.com/arjunkdot/personal-website/refs/heads/main/.github/images/logo.png" alt="Logo" width="192" height="192" />
 </p>
 
 <h1 align="center">Arjun K. — Personal Website</h1>
